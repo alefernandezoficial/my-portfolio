@@ -11,3 +11,45 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.navbar-nav {
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 9999;
+}
+
+.navbar {
+  background-color: #33333393;
+  border-bottom-color: 1px solid #ff9100;
+}
+
+.navbar a {
+  color: #ccc;
+}
+
+.navbar-nav li a:hover {
+  color: #ffffff;
+}
+
+.nav-link {
+  margin-right: 1rem;
+  margin-bottom: 0.5rem;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.2s;
+}
+
+.nav-link:hover {
+  border-bottom-color: #ff9100;
+}
+
+.navbar-toggler {
+  border: 1px solid #ccc
+}
+
+.bi.bi-three-dots-vertical {
+  color: #ffffff;
+}
+
+.navbar-brand img {
+  margin-right: 0.5rem;
+}
