@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "./static/css/main.01190859.css",
-    "main.js": "./static/js/main.a8730f5b.js",
-    "static/media/cursos.pdf": "./static/media/cursos.466a067e38a3047e74bb.pdf",
-    "static/media/profile.jpg": "./static/media/profile.d7ba82e25ff059923eeb.jpg",
-    "static/media/alejandro-fernandez.png": "./static/media/alejandro-fernandez.929a74655ff6bc3edf8f.png",
-    "index.html": "./index.html",
-    "main.01190859.css.map": "./static/css/main.01190859.css.map",
-    "main.a8730f5b.js.map": "./static/js/main.a8730f5b.js.map"
+    "main.css": "/myapp-2/static/css/main.01190859.css",
+    "main.js": "/myapp-2/static/js/main.57a560f6.js",
+    "static/media/cursos.pdf": "/myapp-2/static/media/cursos.466a067e38a3047e74bb.pdf",
+    "static/media/profile.jpg": "/myapp-2/static/media/profile.d7ba82e25ff059923eeb.jpg",
+    "static/media/alejandro-fernandez.png": "/myapp-2/static/media/alejandro-fernandez.929a74655ff6bc3edf8f.png",
+    "index.html": "/myapp-2/index.html",
+    "main.01190859.css.map": "/myapp-2/static/css/main.01190859.css.map",
+    "main.57a560f6.js.map": "/myapp-2/static/js/main.57a560f6.js.map"
   },
   "entrypoints": [
     "static/css/main.01190859.css",
-    "static/js/main.a8730f5b.js"
+    "static/js/main.57a560f6.js"
   ]
 }
