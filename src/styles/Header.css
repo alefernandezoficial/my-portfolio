@@ -1,0 +1,19 @@
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.alefernandez-img-top {
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+    filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.699));
+}
+
+@media screen and (max-width: 576px) {
+    .alefernandez-img-top {
+        top: 30%;
+        max-width: 50%;
+    }
+}
