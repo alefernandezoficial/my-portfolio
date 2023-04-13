@@ -1,9 +1,14 @@
-import React from 'react'
+import React from 'react';
+
+import pdfCursos from "../../assets/pdf/cursos.pdf";
+
+import "../../styles/pages/Certificated.css";
 
 function Certificated() {
   return (
-    <div>
-      <h1>Seccion Certificados Oficiales</h1>
+    <div className='container'>
+      <h1 className='certificated-title'>Certificados Oficiales</h1>
+      <iframe title='Certificados' src={pdfCursos} height={600} width={600}></iframe>
     </div>
   )
 }

@@ -3,8 +3,8 @@ import '../../styles/pages/Home.css'
 
 function Home() {
   return (
-    <div>
-      <h1 className='home-title'>Hola, bienvenido a mi sitio web de portfolio</h1>
+    <div className='container'>
+      <h1 className='home-title'>Home</h1>
       <p className='home-parrafo'>Aca podras encontrar toda la informacion de mis conocimientos
         tanto como Programador como Diseñador.
         Tengo conocimientos de Front-End HTML, CSS, JavaScript, BootStrap, ReactJS

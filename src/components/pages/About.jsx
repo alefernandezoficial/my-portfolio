@@ -1,14 +1,12 @@
 import React from 'react'
 import '../../styles/pages/About.css'
+import Profile from "../../assets/images/profile.jpg";
 
 function About() {
   return (
-    <div>
-      <div className="about-container">
-        <h2>About Me</h2>
-        <div className="about-content">
-          <img src="assets/images/profile.jpg" alt="profile" className="imagen-profile" />
-          <div className="about-text">
+    <div className='container'>
+        <h1 className='about-title'>About Me</h1>
+          <img src={Profile} alt="profile" className="imagen-profile" />
             <p>
               Hi, my name is John Doe and I'm a web developer with 5 years of
               experience. I specialize in creating responsive and user-friendly
@@ -26,9 +24,6 @@ function About() {
             </p>
             <button className="about-btn">Contact Me</button>
           </div>
-        </div>
-      </div>
-    </div>
   )
 }
 
