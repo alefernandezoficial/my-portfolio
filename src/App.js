@@ -1,9 +1,11 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom'
 
+//Estructura y Navegacion
 import Navbar from './components/Navbar';
 import Header from './components/Header';
 
+//Paginacion
 import Home from './components/pages/Home';
 import About from './components/pages/About';
 import Contact from './components/pages/Contact';
