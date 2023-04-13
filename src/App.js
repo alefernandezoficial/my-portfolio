@@ -10,7 +10,6 @@ import Contact from './components/pages/Contact';
 import Portfolio from './components/pages/Portfolio';
 import Certificated from './components/pages/Certificated';
 
-
 const App = () => {
   return (
       <div>
