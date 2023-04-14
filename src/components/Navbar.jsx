@@ -1,20 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Tooltip } from "bootstrap";
 
 import "../styles/NavegationBar.css";
 
 function Navbar() {
-
-  // Inicializamos los tooltips al montar el componente
-  React.useEffect(() => {
-    const tooltipTriggerList = [].slice.call(
-      document.querySelectorAll('[data-bs-toggle="tooltip"]')
-    );
-    tooltipTriggerList.map(function (tooltipTriggerEl) {
-      return new Tooltip(tooltipTriggerEl);
-    });
-  }, []);
 
   return (
     <nav className="navbar navbar-expand-lg navbar-light">
