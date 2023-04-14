@@ -1,7 +1,7 @@
 {
   "name": "myapp-2",
   "version": "0.1.0",
-  "homepage": "https://github.com/alefernandezoficial/myapp-2/",
+  "homepage": "https://alefernandezoficial.github.io/myapp-2/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
