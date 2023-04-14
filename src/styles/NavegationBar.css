@@ -4,18 +4,18 @@
     z-index: 9999;
 }
 
+.navbar-brand {
+    color: white;
+}
+
 .navbar {
-    background-color: #33333393;
+    background-color: #3333333c;
     border-bottom-color: 1px solid #ff9100;
     font-size: 24px;
 }
 
-.navbar a {
-    color: #000000;
-}
-
 .navbar-nav li a:hover {
-    color: #8f8f8f;
+    color: #ff9100;
 }
 
 .nav-link {
@@ -23,6 +23,7 @@
     margin-bottom: 0.5rem;
     border-bottom: 2px solid transparent;
     transition: border-bottom 0.2s;
+    color: white;
 }
 
 .nav-link:hover {
@@ -31,12 +32,4 @@
 
 .navbar-toggler {
     border: 1px solid #ccc
-}
-
-.bi.bi-three-dots-vertical {
-    color: #000000;
-}
-
-.navbar-brand img {
-    margin-right: 0.5rem;
 }

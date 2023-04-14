@@ -8,7 +8,7 @@ function Certificated() {
   return (
     <div className='container'>
       <h1 className='certificated-title'>Certificados Oficiales</h1>
-      <iframe title='Certificados' src={pdfCursos} height={600} width={600}></iframe>
+      <iframe title='Certificados' src={pdfCursos} height={600} width={700}></iframe>
     </div>
   )
 }

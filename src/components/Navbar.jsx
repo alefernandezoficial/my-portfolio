@@ -5,9 +5,9 @@ import '../styles/NavegationBar.css'
 
 function Navbar() {
     return (
-            <nav className="navbar navbar-expand-lg bg-body-tertiary">
+            <nav className="navbar navbar-expand-lg">
                 <div className="container-fluid">
-                    <a className="navbar-brand" href='/'>
+                    <a className="navbar-brand" href='/'>Portfolio
                     </a>
                     <button
                         className="navbar-toggler"
@@ -23,7 +23,7 @@ function Navbar() {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0 fw-bold">
                             <li className="nav-item">
-                                <Link className="nav-link active" aria-current="page" to="/">
+                                <Link className="nav-link" aria-current="page" to="/">
                                 <i class="bi bi-house"></i> Home
                                 </Link>
                             </li>

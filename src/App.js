@@ -20,19 +20,19 @@ import Certificated from "./components/pages/Certificated";
 import ErrorPage from "./components/pages/ErrorPage";
 
 const App = () => {
-  
   const [isDarkMode, setIsDarkMode] = useState(false);
 
-  const toggleDarkMode = () => {
+  function toggleDarkMode() {
     setIsDarkMode(!isDarkMode);
-  };
+  }
 
   return (
     <div>
-      <div className={isDarkMode ? "dark-mode" : ""}>
-        <button onClick={toggleDarkMode}>Cambiar tema</button>
-        <h1>Modo {isDarkMode ? "oscuro" : "claro"}</h1>
-        
+      <div className={isDarkMode ? "dark" : ""}>
+      <button className="darkmodebutton" onClick={toggleDarkMode}>
+        {isDarkMode ? <i class="bi bi-sun-fill"></i> : <i class="bi bi-moon-stars-fill"></i>}
+      </button>
+
         <Navbar />
         <Header />
         <Routes>
