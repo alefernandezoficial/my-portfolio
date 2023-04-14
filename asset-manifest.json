@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/alefernandezoficial/myapp-2/static/css/main.173a6f76.css",
-    "main.js": "/alefernandezoficial/myapp-2/static/js/main.b82b01d2.js",
+    "main.js": "/alefernandezoficial/myapp-2/static/js/main.5422b572.js",
     "static/media/cursos.pdf": "/alefernandezoficial/myapp-2/static/media/cursos.47bb21e11f2d70ac8376.pdf",
     "static/media/profile.jpg": "/alefernandezoficial/myapp-2/static/media/profile.d7ba82e25ff059923eeb.jpg",
     "static/media/alejandro-fernandez.png": "/alefernandezoficial/myapp-2/static/media/alejandro-fernandez.929a74655ff6bc3edf8f.png",
     "index.html": "/alefernandezoficial/myapp-2/index.html",
     "main.173a6f76.css.map": "/alefernandezoficial/myapp-2/static/css/main.173a6f76.css.map",
-    "main.b82b01d2.js.map": "/alefernandezoficial/myapp-2/static/js/main.b82b01d2.js.map"
+    "main.5422b572.js.map": "/alefernandezoficial/myapp-2/static/js/main.5422b572.js.map"
   },
   "entrypoints": [
     "static/css/main.173a6f76.css",
-    "static/js/main.b82b01d2.js"
+    "static/js/main.5422b572.js"
   ]
 }
