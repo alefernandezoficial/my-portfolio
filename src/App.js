@@ -35,7 +35,7 @@ const App = () => {
 
         <Navbar />
         <Header />
-        <Routes>
+        <Routes basename={process.env.PUBLIC_URL}>
           <Route exact path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
