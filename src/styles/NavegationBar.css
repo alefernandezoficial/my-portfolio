@@ -1,6 +1,7 @@
 .navbar-brand {
     color: #ffffff;
 }
+
 .navbar-brand:hover {
     color: #e100ff;
 }
@@ -8,7 +9,6 @@
 .navbar li {
     list-style: none;
     padding: 0 20px;
-    position: relative;
 }
 
 .navbar li a {
@@ -23,4 +23,15 @@
 .navbar li a.active {
     color: #e100ff !important;
     text-decoration: underline;
+}
+
+.navbar-nav {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.nav-item {
+    flex: 1;
+    margin-right: 10px;
 }

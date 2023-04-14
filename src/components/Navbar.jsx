@@ -16,7 +16,7 @@ function Navbar() {
   }, []);
 
   return (
-    <nav className="navbar navbar-expand-lg">
+    <nav className="navbar navbar-expand-lg navbar-light">
       <div className="container-fluid">
         <a className="navbar-brand" href="/">
           Portfolio
@@ -25,19 +25,19 @@ function Navbar() {
           className="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav me-auto mb-2 mb-lg-0 fw-bold">
+        <div className="collapse navbar-collapse" id="navbarNav">
+          <ul className="navbar-nav">
             <li className="nav-item">
               <Link className="nav-link" aria-current="page" to="/">
                 <i
-                  class="bi bi-house"
+                  className="bi bi-house"
                   data-bs-toggle="tooltip"
                   data-bs-placement="bottom"
                   title="Inicio"
@@ -47,7 +47,7 @@ function Navbar() {
             <li className="nav-item">
               <Link className="nav-link" to="/about">
                 <i
-                  class="bi bi-file-person"
+                  className="bi bi-file-person"
                   data-bs-toggle="tooltip"
                   data-bs-placement="bottom"
                   title="Sobre Mi"
@@ -57,7 +57,7 @@ function Navbar() {
             <li className="nav-item">
               <Link className="nav-link" to="/contact">
                 <i
-                  class="bi bi-envelope"
+                  className="bi bi-envelope"
                   data-bs-toggle="tooltip"
                   data-bs-placement="bottom"
                   title="Contacto"
@@ -67,7 +67,7 @@ function Navbar() {
             <li className="nav-item">
               <Link className="nav-link" to="/portfolio">
                 <i
-                  class="bi bi-pc-display"
+                  className="bi bi-pc-display"
                   data-bs-toggle="tooltip"
                   data-bs-placement="bottom"
                   title="Portfolio"
@@ -77,7 +77,7 @@ function Navbar() {
             <li className="nav-item">
               <Link className="nav-link" to="/certificated">
                 <i
-                  class="bi bi-postcard"
+                  className="bi bi-postcard"
                   data-bs-toggle="tooltip"
                   data-bs-placement="bottom"
                   title="Certificados"
