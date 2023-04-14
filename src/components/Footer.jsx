@@ -1,5 +1,4 @@
 import React from "react";
-
 import "../styles/Footer.css";
 import { Link } from "react-router-dom";
 
@@ -42,7 +41,7 @@ function Footer() {
             </ul>
           </div>
           <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
-            <h5 class="mb-3">Síguenos</h5>
+            <h5 class="mb-3">Sígueme</h5>
             <ul class="list-inline">
               <li class="list-inline-item">
                 <a href="https://www.twitter.com/ale_jsk" class="social-link">

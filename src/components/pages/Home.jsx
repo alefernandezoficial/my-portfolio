@@ -1,5 +1,6 @@
-import React from 'react'
-import '../../styles/pages/Home.css'
+import React from 'react';
+
+import '../../styles/pages/Home.css';
 
 function Home() {
   return (
@@ -11,6 +12,7 @@ function Home() {
         SupaBase y MySQL como base de datos en Back-End.
       </p>
     </div>
+    
   )
 }
 
