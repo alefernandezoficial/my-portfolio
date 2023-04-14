@@ -5,6 +5,7 @@ import { Tooltip } from "bootstrap";
 import "../styles/NavegationBar.css";
 
 function Navbar() {
+
   // Inicializamos los tooltips al montar el componente
   React.useEffect(() => {
     const tooltipTriggerList = [].slice.call(

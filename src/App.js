@@ -12,6 +12,7 @@ import About from "./components/pages/About";
 import Contact from "./components/pages/Contact";
 import Portfolio from "./components/pages/Portfolio";
 import Certificated from "./components/pages/Certificated";
+import Services from "./components/pages/Services";
 
 //ErrorPage
 import ErrorPage from "./components/pages/ErrorPage";
@@ -27,6 +28,7 @@ const App = () => {
           <Route path="/contact" element={<Contact />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/certificated" element={<Certificated />} />
+          <Route path="/services" element={<Services />} />
           <Route path="*" element={<ErrorPage />} />
         </Routes>
         <Footer />
