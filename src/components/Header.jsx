@@ -1,6 +1,7 @@
-import React from 'react'
+import React from 'react';
 
-import '../styles/Header.css'
+import '../styles/Header.css';
+
 import logoAle from "../assets/images/alejandro-fernandez.png";
 
 function Header() {

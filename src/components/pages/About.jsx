@@ -29,7 +29,6 @@ function About() {
         contactarme por medio de mis redes sociales o por aqui mismo en la
         seccion Contacto.
       </p>
-      <button className="about-btn">Contact Me</button>
       <hr />
 
     <div className="card-container">
