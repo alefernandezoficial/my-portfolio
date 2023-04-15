@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/myapp-2/static/css/main.5e9ad7cb.css",
-    "main.js": "/myapp-2/static/js/main.3e57dd65.js",
+    "main.css": "/myapp-2/static/css/main.bbd0c042.css",
+    "main.js": "/myapp-2/static/js/main.5c21880f.js",
     "static/media/profile-cover.png": "/myapp-2/static/media/profile-cover.9de700a33d07775b7b6b.png",
     "static/media/cursos.pdf": "/myapp-2/static/media/cursos.47bb21e11f2d70ac8376.pdf",
     "static/media/profile-entidad.png": "/myapp-2/static/media/profile-entidad.3beacce71767eb5452d9.png",
@@ -10,13 +10,14 @@
     "static/media/alejandro-fernandez.png": "/myapp-2/static/media/alejandro-fernandez.929a74655ff6bc3edf8f.png",
     "static/media/javascript.png": "/myapp-2/static/media/javascript.166865dacb77d214f485.png",
     "static/media/Reactjs.png": "/myapp-2/static/media/Reactjs.20adfb35ae6a6e5817bf.png",
+    "static/media/sitioweb.png": "/myapp-2/static/media/sitioweb.a0d07c78299f336be3ed.png",
     "static/media/html5.png": "/myapp-2/static/media/html5.15b41d926755000698e9.png",
     "index.html": "/myapp-2/index.html",
-    "main.5e9ad7cb.css.map": "/myapp-2/static/css/main.5e9ad7cb.css.map",
-    "main.3e57dd65.js.map": "/myapp-2/static/js/main.3e57dd65.js.map"
+    "main.bbd0c042.css.map": "/myapp-2/static/css/main.bbd0c042.css.map",
+    "main.5c21880f.js.map": "/myapp-2/static/js/main.5c21880f.js.map"
   },
   "entrypoints": [
-    "static/css/main.5e9ad7cb.css",
-    "static/js/main.3e57dd65.js"
+    "static/css/main.bbd0c042.css",
+    "static/js/main.5c21880f.js"
   ]
 }
