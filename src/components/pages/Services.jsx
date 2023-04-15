@@ -7,6 +7,7 @@ import SitioWeb from "../../assets/icons/sitioweb.png";
 function Services() {
   return (
     <div className="container">
+      <h1 className="services-titulo">Services</h1>
       <div class="row">
         <div class="col-md-6 col-lg-4 mb-4">
           <div class="card h-100 shadow-sm">

@@ -1,3 +1,11 @@
+.services-titulo {
+    margin: 0 auto;
+    padding: 25px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
 @media (max-width: 768px) {
     .card-img-top {
         max-height: 250px
