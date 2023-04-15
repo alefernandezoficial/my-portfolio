@@ -6,9 +6,11 @@ import "../../styles/pages/Certificated.css";
 
 function Certificated() {
   return (
-    <div className='container'>
+    <div>
       <h1 className='certificated-title'>Certificados Oficiales</h1>
+    <div className='container d-flex justify-content-center align-items-center'>
       <iframe title='Certificados' src={pdfCursos} height={600} width={700}></iframe>
+    </div>
     </div>
   )
 }
