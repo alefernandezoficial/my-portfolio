@@ -27,13 +27,13 @@ function Footer() {
             <h5 class="mb-3">Enlaces útiles</h5>
             <ul class="list-unstyled">
               <li>
-                <Link to="/">Inicio</Link>
+                <Link to="/"><i class="bi bi-house-fill"></i> Inicio</Link>
               </li>
               <li>
-                <Link to="/about">Acerca de mi</Link>
+                <Link to="/about"><i class="bi bi-person-vcard-fill"></i> Acerca de mi</Link>
               </li>
               <li>
-                <Link to="/services">Servicios</Link>
+                <Link to="/services"><i class="bi bi-pc"></i> Servicios</Link>
               </li>
             </ul>
           </div>
@@ -41,7 +41,7 @@ function Footer() {
             <h5 class="mb-3">Contacto</h5>
             <ul class="list-unstyled">
               <li>
-                <i class="bi bi-envelope"></i> alefernandezoficial@gmail.com
+              <i class="bi bi-envelope-at"></i> alefernandezoficial@gmail.com
               </li>
               <li>
                 <i class="bi bi-telephone"></i> +54 (341) 275-8775

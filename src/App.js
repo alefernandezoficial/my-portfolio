@@ -2,7 +2,6 @@ import React from "react";
 import { Route, Routes } from "react-router-dom";
 
 //Estructura y Navegacion
-import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 
@@ -20,7 +19,6 @@ import ErrorPage from "./components/pages/ErrorPage";
 const App = () => {
   return (
     <div>
-        <Navbar />
         <Header />
         <Routes basename={process.env.PUBLIC_URL}>
           <Route exact path="/" element={<Home />} />
