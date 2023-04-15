@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/myapp-2/static/css/main.0f4d79e4.css",
-    "main.js": "/myapp-2/static/js/main.e3611030.js",
+    "main.css": "/myapp-2/static/css/main.5e9ad7cb.css",
+    "main.js": "/myapp-2/static/js/main.3e57dd65.js",
+    "static/media/profile-cover.png": "/myapp-2/static/media/profile-cover.9de700a33d07775b7b6b.png",
     "static/media/cursos.pdf": "/myapp-2/static/media/cursos.47bb21e11f2d70ac8376.pdf",
-    "static/media/profile.jpg": "/myapp-2/static/media/profile.d7ba82e25ff059923eeb.jpg",
+    "static/media/profile-entidad.png": "/myapp-2/static/media/profile-entidad.3beacce71767eb5452d9.png",
     "static/media/wordpress.png": "/myapp-2/static/media/wordpress.677ef4544cab80a0c451.png",
     "static/media/bootstrap.png": "/myapp-2/static/media/bootstrap.cb0fcc269e8250f3551b.png",
     "static/media/alejandro-fernandez.png": "/myapp-2/static/media/alejandro-fernandez.929a74655ff6bc3edf8f.png",
@@ -11,11 +12,11 @@
     "static/media/Reactjs.png": "/myapp-2/static/media/Reactjs.20adfb35ae6a6e5817bf.png",
     "static/media/html5.png": "/myapp-2/static/media/html5.15b41d926755000698e9.png",
     "index.html": "/myapp-2/index.html",
-    "main.0f4d79e4.css.map": "/myapp-2/static/css/main.0f4d79e4.css.map",
-    "main.e3611030.js.map": "/myapp-2/static/js/main.e3611030.js.map"
+    "main.5e9ad7cb.css.map": "/myapp-2/static/css/main.5e9ad7cb.css.map",
+    "main.3e57dd65.js.map": "/myapp-2/static/js/main.3e57dd65.js.map"
   },
   "entrypoints": [
-    "static/css/main.0f4d79e4.css",
-    "static/js/main.e3611030.js"
+    "static/css/main.5e9ad7cb.css",
+    "static/js/main.3e57dd65.js"
   ]
 }
