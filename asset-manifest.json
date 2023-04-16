@@ -1,10 +1,12 @@
 {
   "files": {
-    "main.css": "/myapp-2/static/css/main.bbd0c042.css",
-    "main.js": "/myapp-2/static/js/main.5c21880f.js",
-    "static/media/profile-cover.png": "/myapp-2/static/media/profile-cover.9de700a33d07775b7b6b.png",
+    "main.css": "/myapp-2/static/css/main.6e805620.css",
+    "main.js": "/myapp-2/static/js/main.70f3f269.js",
+    "static/media/goatburger.png": "/myapp-2/static/media/goatburger.61e3958e68b4305f3776.png",
+    "static/media/profile-cover.png": "/myapp-2/static/media/profile-cover.d3303cc042bf7c55daeb.png",
+    "static/media/sickgamers.png": "/myapp-2/static/media/sickgamers.27ce7d47206d95c0b900.png",
     "static/media/cursos.pdf": "/myapp-2/static/media/cursos.47bb21e11f2d70ac8376.pdf",
-    "static/media/profile-entidad.png": "/myapp-2/static/media/profile-entidad.3beacce71767eb5452d9.png",
+    "static/media/profile-entidad.png": "/myapp-2/static/media/profile-entidad.09686df2fa38a3e9e34a.png",
     "static/media/wordpress.png": "/myapp-2/static/media/wordpress.677ef4544cab80a0c451.png",
     "static/media/bootstrap.png": "/myapp-2/static/media/bootstrap.cb0fcc269e8250f3551b.png",
     "static/media/alejandro-fernandez.png": "/myapp-2/static/media/alejandro-fernandez.929a74655ff6bc3edf8f.png",
@@ -13,11 +15,11 @@
     "static/media/sitioweb.png": "/myapp-2/static/media/sitioweb.a0d07c78299f336be3ed.png",
     "static/media/html5.png": "/myapp-2/static/media/html5.15b41d926755000698e9.png",
     "index.html": "/myapp-2/index.html",
-    "main.bbd0c042.css.map": "/myapp-2/static/css/main.bbd0c042.css.map",
-    "main.5c21880f.js.map": "/myapp-2/static/js/main.5c21880f.js.map"
+    "main.6e805620.css.map": "/myapp-2/static/css/main.6e805620.css.map",
+    "main.70f3f269.js.map": "/myapp-2/static/js/main.70f3f269.js.map"
   },
   "entrypoints": [
-    "static/css/main.bbd0c042.css",
-    "static/js/main.5c21880f.js"
+    "static/css/main.6e805620.css",
+    "static/js/main.70f3f269.js"
   ]
 }
