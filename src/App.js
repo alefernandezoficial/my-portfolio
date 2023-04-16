@@ -1,6 +1,8 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 
+import { Fade } from "react-reveal";
+
 //Estructura y Navegacion
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -19,6 +21,7 @@ import ErrorPage from "./components/pages/ErrorPage";
 const App = () => {
   return (
     <div>
+      <Fade>
         <Header />
         <Routes>
           <Route exact path="/" element={<Home />} />
@@ -30,6 +33,7 @@ const App = () => {
           <Route path="*" element={<ErrorPage />} />
         </Routes>
         <Footer />
+        </Fade>
     </div>
   );
 };

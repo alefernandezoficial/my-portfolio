@@ -1,4 +1,7 @@
 import React from "react";
+
+import { Fade } from "react-reveal";
+
 import "../../styles/pages/About.css";
 
 import htmlIcon from "../../assets/icons/html5.png";
@@ -9,7 +12,9 @@ import bootIcon from "../../assets/icons/bootstrap.png";
 import wordIcon from "../../assets/icons/wordpress.png";
 
 function About() {
+
   return (
+    <Fade bottom>
     <div className="container">
       <h1 className="about-title">About Me</h1>
       <div className="container-info-profile">
@@ -88,6 +93,7 @@ function About() {
         </div>
       </div>
     </div>
+    </Fade>
   );
 }
 

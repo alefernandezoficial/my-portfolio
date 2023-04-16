@@ -2,10 +2,13 @@ import React from "react";
 
 import "../../styles/pages/Services.css";
 
+import { Fade } from "react-reveal";
+
 import SitioWeb from "../../assets/icons/sitioweb.png";
 
 function Services() {
   return (
+    <Fade bottom>
     <div className="container">
       <h1 className="services-titulo">Services</h1>
       <div class="row">
@@ -85,6 +88,7 @@ function Services() {
         </div>
       </div>
     </div>
+    </Fade>
   );
 }
 

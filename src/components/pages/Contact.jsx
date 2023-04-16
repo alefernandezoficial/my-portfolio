@@ -1,8 +1,11 @@
 import React from 'react';
 import '../../styles/pages/Contact.css';
 
+import { Fade } from 'react-reveal';
+
 function Contact() {
   return (
+    <Fade bottom>
       <div className='container'>
         <h1 className='contact-title'>Contact</h1>
         <form>
@@ -21,6 +24,7 @@ function Contact() {
           <button type="submit">Enviar</button>
         </form>
       </div>
+      </Fade>
   )
 }
 

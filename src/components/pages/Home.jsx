@@ -1,5 +1,7 @@
 import React from "react";
 
+import { Fade } from "react-reveal";
+
 import Profile from "../../assets/images/profile-entidad.png";
 import Cover from "../../assets/images/profile-cover.png";
 import Nombre from "../../assets/images/alejandro-fernandez.png";
@@ -8,6 +10,7 @@ import "../../styles/pages/Home.css";
 
 function Home() {
   return (
+    <Fade bottom>
     <div className="container">
       <h1 className="home-title">Home</h1>
 
@@ -43,6 +46,7 @@ function Home() {
         alcanzar sus objetivos. ¡Gracias!
       </p>
     </div>
+    </Fade>
   );
 }
 

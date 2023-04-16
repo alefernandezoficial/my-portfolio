@@ -1,6 +1,8 @@
 import React from "react";
 import ModalImage from "react-modal-image";
 
+import { Fade } from "react-reveal";
+
 import "../../styles/pages/Portfolio.css";
 
 import GoatBurger from "../../assets/projects/goatburger.png";
@@ -8,6 +10,7 @@ import SickGamers from "../../assets/projects/sickgamers.png";
 
 function Portfolio() {
   return (
+    <Fade bottom>
     <div className="container">
       <h1 className="portfolio-titulo">Portfolio</h1>
       
@@ -72,6 +75,7 @@ function Portfolio() {
       </div>
     </div>
     </div>
+    </Fade>
   );
 }
 
