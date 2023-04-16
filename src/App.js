@@ -20,7 +20,7 @@ const App = () => {
   return (
     <div>
         <Header />
-        <Routes basename={process.env.PUBLIC_URL}>
+        <Routes basename="/myapp-2">
           <Route exact path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
