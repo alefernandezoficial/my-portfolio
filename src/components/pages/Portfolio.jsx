@@ -38,7 +38,7 @@ function Portfolio() {
                   HTML, CSS, JavaScript, ReactJS & Bootstrap
                 </small>
               </p>
-              <a href="#"><i class="bi bi-link-45deg"></i>Ir a la pagina</a>
+              <a href="https://alefernandezoficial.github.io/my-hamburger/"><i class="bi bi-link-45deg"></i>Ir a la pagina</a>
             </div>
           </div>
         </div>
@@ -68,7 +68,7 @@ function Portfolio() {
                   HTML, CSS, JavaScript, ReactJS & Bootstrap
                 </small>
               </p>
-              <a href="#"><i class="bi bi-link-45deg"></i>Ir a la pagina</a>
+              <a href="https://alefernandezoficial.github.io/my-ecommerce/"><i class="bi bi-link-45deg"></i>Ir a la pagina</a>
             </div>
           </div>
         </div>
