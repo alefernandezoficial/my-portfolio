@@ -1,91 +1,76 @@
 import React from "react";
+import ModalImage from "react-modal-image";
 
 import "../../styles/pages/Portfolio.css";
 
-import SitioWeb from "../../assets/icons/sitioweb.png";
+import GoatBurger from "../../assets/projects/goatburger.png";
+import SickGamers from "../../assets/projects/sickgamers.png";
 
 function Portfolio() {
   return (
-    <div class="container">
+    <div className="container">
       <h1 className="portfolio-titulo">Portfolio</h1>
       
-      <div class="row">
-        <div class="col-md-6 col-lg-4 mb-4">
-          <div class="card h-100 shadow-sm">
-            <img src={SitioWeb} class="card-img-top" alt="sitioWeb" />
-            <div class="card-body">
-              <div class="clearfix mb-3">
-                <span class="float-start badge rounded-pill bg-primary">
-                  E-Commerce Website
-                </span>
-                <span class="float-end price-hp">SickGamers</span>
-              </div>
-              <h5 class="card-title">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam
-                quidem eaque ut eveniet aut quis rerum. Asperiores accusamus
-                harum ducimus velit odit ut. Saepe, iste optio laudantium sed
-                aliquam sequi.
-              </h5>
-              <div class="text-center my-4">
-                <a href="/my-ecommerce" class="btn btn-warning">
-                  Visitar
-                </a>
-              </div>
-            </div>
+      <div className="row justify-content-center">
+      <div className="card card-margin mb-3" style={{ maxWidth: "300px" }}>
+        <div className="row g-0">
+          <div className="col-md-4">
+            <ModalImage
+              small={GoatBurger}
+              large={GoatBurger}
+              alt="goatburger-website"
+              className="my-thumbnail-class"
+            />
           </div>
-        </div>
-
-        <div class="col-md-6 col-lg-4 mb-4">
-          <div class="card h-100 shadow-sm">
-            <img src={SitioWeb} class="card-img-top" alt="sitioWeb" />
-            <div class="card-body">
-              <div class="clearfix mb-3">
-                <span class="float-start badge rounded-pill bg-primary">
-                  Hamburguesas Website
-                </span>
-                <span class="float-end price-hp">GoatBurger</span>
-              </div>
-              <h5 class="card-title">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam
-                quidem eaque ut eveniet aut quis rerum. Asperiores accusamus
-                harum ducimus velit odit ut. Saepe, iste optio laudantium sed
-                aliquam sequi.
-              </h5>
-              <div class="text-center my-4">
-                <a href="/my-goatburger" class="btn btn-warning">
-                  Visitar
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-6 col-lg-4 mb-4">
-          <div class="card h-100 shadow-sm">
-            <img src={SitioWeb} class="card-img-top" alt="sitioWeb" />
-            <div class="card-body">
-              <div class="clearfix mb-3">
-                <span class="float-start badge rounded-pill bg-primary">
-                  Vinoteca Website
-                </span>
-                <span class="float-end price-hp">Vinoteca</span>
-              </div>
-              <h5 class="card-title">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam
-                quidem eaque ut eveniet aut quis rerum. Asperiores accusamus
-                harum ducimus velit odit ut. Saepe, iste optio laudantium sed
-                aliquam sequi.
-              </h5>
-              <div class="text-center my-4">
-                <a href="/my-goatburger" class="btn btn-warning">
-                  Visitar
-                </a>
-              </div>
+          <div className="col-md-8">
+            <div className="card-body">
+              <h5 className="card-title">GoatBurger - Hamburguesas</h5>
+              <p className="card-text">
+                Pagina 1 Page centrada en el comercio electronico de una hamburgueseria
+                con sus respectivos menus en base de datos SupaBase, banners de publicidad
+                con photoshop, simple, rapido y centrado en el punto base, las hamburguesas.
+              </p>
+              <p className="card-text">
+                <small className="text-body-secondary">
+                  HTML, CSS, JavaScript, ReactJS & Bootstrap
+                </small>
+              </p>
+              <a href="#"><i class="bi bi-link-45deg"></i>Ir a la pagina</a>
             </div>
           </div>
         </div>
       </div>
-      
+
+      <div className="card mb-3" style={{ maxWidth: "300px" }}>
+        <div className="row g-0">
+          <div className="col-md-4">
+            <ModalImage
+              small={SickGamers}
+              large={SickGamers}
+              alt="sickgamers-website"
+              className="my-thumbnail-class"
+            />
+          </div>
+          <div className="col-md-8">
+            <div className="card-body">
+              <h5 className="card-title">SickGamers - Ecommerce</h5>
+              <p className="card-text">
+                Pagina de 6 secciones con informacion y compra de Accesorios gamers
+                e Indumentaria de alta calidad e importadas de afuera, tematica simple
+                accesible y rapida, photoshop para las ilustraciones y logo, enfocada
+                en la venta de productos electronicos e indumentaria.
+              </p>
+              <p className="card-text">
+                <small className="text-body-secondary">
+                  HTML, CSS, JavaScript, ReactJS & Bootstrap
+                </small>
+              </p>
+              <a href="#"><i class="bi bi-link-45deg"></i>Ir a la pagina</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     </div>
   );
 }

@@ -101,3 +101,14 @@
         font-size: 1rem
     }
 }
+
+.my-thumbnail-class {
+    width: 350px;
+    height: 350px;
+    object-fit: contain;
+}
+
+.card-margin {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
