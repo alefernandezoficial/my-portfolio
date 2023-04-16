@@ -9,7 +9,8 @@
     max-width: 100%;
     max-height: 100%;
     filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.699));
-    background-color: black;
+    background-image: url("../assets/images/cover-image.jpg");
+    background-size: cover;
     border-radius: 20px;
 }
 

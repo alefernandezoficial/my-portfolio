@@ -9,7 +9,8 @@ import { Link } from "react-router-dom";
 function Header() {
   return (
     <div>
-      <div className="card">
+
+      <div className="card text-bg-dark">
         <img src={logoAle} className="alefernandez-img-top" alt="logoAle" />
       </div>
 
