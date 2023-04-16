@@ -27,7 +27,7 @@ function Home() {
       <p className="home-parrafo">
         Buenos días/tardes/noches, Me complace presentarles mis servicios como
         programador, diseñador y desarrollador web. Con experiencia en HTML,
-        CSS, JavaScript, ReactJS, Bootstrap, Photoshop, Canva, Wordpress
+        CSS, JavaScript, ReactJS, Bootstrap, Photoshop, Canva, Wordpress,
         SupaBase y MySql, puedo ayudarle a crear una presencia en línea efectiva
         y atractiva para su empresa o proyecto. Mi objetivo es proporcionar
         soluciones web personalizadas que satisfagan sus necesidades y objetivos
