@@ -1,4 +1,7 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+
+import { Vortex } from "react-loader-spinner";
+
 import { Route, Routes } from "react-router-dom";
 
 import { Fade } from "react-reveal";
@@ -15,25 +18,54 @@ import Portfolio from "./components/pages/Portfolio";
 import Certificated from "./components/pages/Certificated";
 import Services from "./components/pages/Services";
 
-//ErrorPage
+//ErrorPage & Loader
 import ErrorPage from "./components/pages/ErrorPage";
+import "./styles/Loader.css";
 
 const App = () => {
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    // Simula una carga asíncrona
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 1000);
+  }, []);
+
   return (
     <div>
-      <Fade>
-        <Header />
-        <Routes>
-          <Route exact path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/portfolio" element={<Portfolio />} />
-          <Route path="/certificated" element={<Certificated />} />
-          <Route path="/services" element={<Services />} />
-          <Route path="*" element={<ErrorPage />} />
-        </Routes>
-        <Footer />
-        </Fade>
+      <div>
+        {isLoading ? (
+          <div className="loader-wrapper">
+            <Vortex
+              visible={true}
+              height="100"
+              width="100"
+              ariaLabel="vortex-loading"
+              wrapperStyle={{}}
+              wrapperClass="vortex-wrapper"
+              colors={["red", "green", "blue", "yellow", "orange", "purple"]}
+            />
+          </div>
+        ) : (
+          <div>
+            {" "}
+            <Fade>
+              <Header />
+              <Routes>
+                <Route exact path="/" element={<Home />} />
+                <Route path="/about" element={<About />} />
+                <Route path="/contact" element={<Contact />} />
+                <Route path="/portfolio" element={<Portfolio />} />
+                <Route path="/certificated" element={<Certificated />} />
+                <Route path="/services" element={<Services />} />
+                <Route path="*" element={<ErrorPage />} />
+              </Routes>
+              <Footer />
+            </Fade>
+          </div>
+        )}
+      </div>
     </div>
   );
 };

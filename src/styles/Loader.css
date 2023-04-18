@@ -1,0 +1,34 @@
+.loader-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #222;
+}
+
+.vortex-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+}
+
+.vortex-wrapper .vortex {
+    border: 5px solid #fff;
+    border-radius: 50%;
+    animation: rotate 1.5s infinite linear;
+}
+
+.vortex-wrapper .vortex::before {
+    content: "";
+    display: block;
+    padding-top: 100%;
+}
+
+@keyframes rotate {
+    100% {
+        transform: rotate(360deg);
+    }
+}

@@ -1,4 +1,4 @@
-import React from "react";
+import React  from "react";
 
 import { Fade } from "react-reveal";
 
@@ -9,6 +9,7 @@ import Nombre from "../../assets/images/alejandro-fernandez.png";
 import "../../styles/pages/Home.css";
 
 function Home() {
+
   return (
     <Fade bottom>
     <div className="container">

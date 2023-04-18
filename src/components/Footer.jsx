@@ -22,7 +22,7 @@ function Footer() {
         <div class="row">
           <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
             <h5 class="mb-3">Alejandro Fernandez Oficial</h5>
-            <p>Desarrollador, Diseñador y Programador Web</p>
+            <p><span class="badge text-bg-info">Desarrollador, Diseñador y Programador Web</span></p>
           </div>
           <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
             <h5 class="mb-3">Enlaces útiles</h5>
@@ -42,10 +42,11 @@ function Footer() {
             <h5 class="mb-3">Contacto</h5>
             <ul class="list-unstyled">
               <li>
-              <i class="bi bi-envelope-at"></i> alefernandezoficial@gmail.com
+              <i class="bi bi-envelope-at"></i> <Link to="https://mail.google.com/mail/?view=cm&fs=1&to=alefernandezoficial@gmail.com">Enviar email</Link>
+
               </li>
               <li>
-                <i class="bi bi-telephone"></i> +54 (341) 275-8775
+                <i class="bi bi-telephone"></i> <Link to="https://wa.me/3412758775">Enviar whatsapp</Link>
               </li>
               <li>
                 <i class="bi bi-shop"></i> Granadero Baigorria, Santa fe,
@@ -109,7 +110,7 @@ function Footer() {
       <div class="py-3">
         <div class="container text-center">
           <p class="mb-0">
-            &copy; Alejandro Fernandez - 2023 Todos los derechos reservados.
+          <span class="badge text-bg-info">&copy; Alejandro Fernandez</span> - 2023 Todos los derechos reservados.
           </p>
         </div>
       </div>

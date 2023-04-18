@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import { Fade } from "react-reveal";
 
@@ -23,12 +24,12 @@ function About() {
           programador.
 
           En mi tiempo libre disfruto de aprender nuevos lenguajes de
-          programacion. Siempre con ideas distinta,s para mejorar el rendimiento
+          programacion. Siempre con ideas para mejorar el rendimiento
           de mis paginas web.
 
           Si estas interesado en trabajar conmigo, no dudes en enviarme un email
           o contactarme por medio de mis redes sociales o por aqui mismo en la
-          seccion Contacto.
+          seccion <Link to="/contact">Contacto.</Link>
         </p>
       </div>
       <hr />
