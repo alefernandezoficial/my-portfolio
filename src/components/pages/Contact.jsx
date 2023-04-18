@@ -47,7 +47,7 @@ function Contact() {
   return (
     <Fade bottom>
       <div className="container">
-        <h1 className="contact-title">Contact</h1>
+        <h1 className="contact-title">Contacto</h1>
         
         <div class="social-icons">
         <Flip>

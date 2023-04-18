@@ -13,7 +13,7 @@ function Home() {
   return (
     <Fade bottom>
     <div className="container">
-      <h1 className="home-title">Home</h1>
+      <h1 className="home-title">Inicio</h1>
 
       <div className="container-card-presentation">
         <div class="card-profile">

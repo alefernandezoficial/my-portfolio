@@ -17,7 +17,7 @@ function About() {
   return (
     <Fade bottom>
     <div className="container">
-      <h1 className="about-title">About Me</h1>
+      <h1 className="about-title">Sobre mi</h1>
       <div className="container-info-profile">
         <p>
           Hola, me llamo Alejandro Fernandez y soy desarrollador, diseñador y
