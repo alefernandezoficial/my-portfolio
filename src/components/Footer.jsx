@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 import { Tooltip } from "bootstrap";
 
 function Footer() {
+  
   // Inicializamos los tooltips al montar el componente
   React.useEffect(() => {
     const tooltipTriggerList = [].slice.call(

@@ -3,8 +3,6 @@ import emailjs from "emailjs-com";
 
 import "../../styles/pages/Contact.css";
 
-import logoAle from "../../assets/images/alejandro-fernandez.png";
-
 import { Fade } from "react-reveal";
 import { Flip } from 'react-reveal';
 
