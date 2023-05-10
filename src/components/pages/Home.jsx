@@ -35,7 +35,7 @@ function Home() {
         únicos. Con una atención meticulosa a los detalles, garantizo una
         experiencia de usuario fluida y optimizada que resultará en una mayor
         retención y conversión de clientes.
-        <hr/>
+        -
         Además de mis habilidades en diseño
         y desarrollo web, también tengo experiencia en producción musical y
         audiovisual con Reaper y SonyVegas. Esta experiencia me ha permitido

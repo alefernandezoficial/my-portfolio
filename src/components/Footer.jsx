@@ -18,12 +18,12 @@ function Footer() {
   }, []);
 
   return (
-    <footer class="py-5">
+    <footer class="py-5" id="footer">
       <div class="container">
         <div class="row">
           <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
             <h5 class="mb-3">Alejandro Fernandez Oficial</h5>
-            <p><span class="badge text-bg-info">Desarrollador, Diseñador y Programador Web</span></p>
+            <p><span class="badge text-bg-warning">Desarrollador, Diseñador y Programador Web</span></p>
           </div>
           <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
             <h5 class="mb-3">Enlaces útiles</h5>
@@ -111,7 +111,7 @@ function Footer() {
       <div class="py-3">
         <div class="container text-center">
           <p class="mb-0">
-          <span class="badge text-bg-info">&copy; Alejandro Fernandez</span> - 2023 Todos los derechos reservados.
+          <span class="badge text-bg-warning">&copy; Alejandro Fernandez</span> - 2023 Todos los derechos reservados.
           </p>
         </div>
       </div>

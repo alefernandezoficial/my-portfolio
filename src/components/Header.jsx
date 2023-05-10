@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from 'react';
 
 import "../styles/Header.css";
 
@@ -6,16 +6,45 @@ import logoAle from "../assets/images/alejandro-fernandez.png";
 
 import { Link } from "react-router-dom";
 
-import Pulse from "react-reveal/Pulse";
+import HeaderVideo from "../assets/video/header.mp4";
+
+import { TypeAnimation } from "react-type-animation";
 
 function Header() {
+
   return (
     <div>
-      <div className="card text-bg-dark">
-        <Pulse>
-          <img src={logoAle} className="alefernandez-img-top" alt="logoAle" />
-        </Pulse>
-      </div>
+      <header id="header">
+        <div class="overlay"></div>
+        <video autoPlay="play" muted="muted" loop="loop">
+          <source src={HeaderVideo} type="video/mp4" />
+        </video>
+
+        <div class="container h-100">
+          <div class="d-flex h-100 text-center align-items-center">
+            <div class="w-100 text-white">
+              <img
+                src={logoAle}
+                className="alefernandez-img-top"
+                alt="logoAle"
+              />
+              <TypeAnimation
+                sequence={[
+                  "Diseñador", // Types 'One'
+                  1000, // Waits 1s
+                  "Desarrollador", // Deletes 'One' and types 'Two'
+                  1000, // Waits 2s
+                  "Programador", // Types 'Three' without deleting 'Two'
+                ]}
+                wrapper="span"
+                cursor={true}
+                repeat={Infinity}
+                style={{ fontSize: '1em' }}
+              />
+            </div>
+          </div>
+        </div>
+      </header>
 
       <ul class="nav justify-content-center">
         <li class="nav-item">
