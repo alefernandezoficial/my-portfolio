@@ -7,9 +7,9 @@ import { ThemeProvider } from "./components/ThemeContext";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <BrowserRouter basename="/">
+  <HashRouter basename="/">
     <ThemeProvider>
       <App />
     </ThemeProvider>
-  </BrowserRouter>
+  </HashRouter>
 );
