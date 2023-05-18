@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
 import "../styles/Header.css";
 
@@ -48,7 +48,7 @@ function Header() {
 
       <ul class="nav justify-content-center">
         <li class="nav-item">
-          <a class="nav-link" aria-current="page">
+          <div class="nav-link">
             <Link to="/">
               <i
                 class="bi bi-house"
@@ -56,10 +56,10 @@ function Header() {
                 title="Inicio"
               ></i>
             </Link>
-          </a>
+          </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link">
+          <div class="nav-link">
             <Link to="/about">
               <i
                 class="bi bi-file-person"
@@ -67,10 +67,10 @@ function Header() {
                 title="Sobre mi"
               ></i>
             </Link>
-          </a>
+          </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link">
+          <div class="nav-link">
             <Link to="/portfolio">
               <i
                 class="bi bi-pc-display"
@@ -78,10 +78,10 @@ function Header() {
                 title="Portfolio"
               ></i>
             </Link>
-          </a>
+          </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link">
+          <div class="nav-link" >
             <Link to="/certificated">
               <i
                 class="bi bi-patch-check"
@@ -89,10 +89,10 @@ function Header() {
                 title="Certificados"
               ></i>
             </Link>
-          </a>
+          </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link">
+          <div class="nav-link">
             <Link to="/contact">
               <i
                 class="bi bi-envelope"
@@ -100,10 +100,10 @@ function Header() {
                 title="Contacto"
               ></i>
             </Link>
-          </a>
+          </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link">
+          <div class="nav-link">
             <Link to="/services">
               <i
                 class="bi bi-person-workspace"
@@ -111,7 +111,7 @@ function Header() {
                 title="Servicios"
               ></i>
             </Link>
-          </a>
+          </div>
         </li>
       </ul>
     </div>

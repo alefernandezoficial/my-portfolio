@@ -1,0 +1,32 @@
+.switch-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+}
+
+.switch {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 24px;
+    background-color: #016faf;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.switch:hover {
+    background-color: #00a2ff;
+    transition: background-color 0.5s ease;
+}
+
+.dark-mode {
+    background-color: #ffffff;
+    transition: background-color 0.5s ease;
+    color: #000000;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+    box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+}
