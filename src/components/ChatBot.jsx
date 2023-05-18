@@ -3,10 +3,8 @@ import { FaWhatsapp, FaTimes } from "react-icons/fa";
 import "../styles/ChatBot.css";
 
 const responses = {
-  Ayuda: "Utiliza los siguientes comandos: contact, services",
-  Help: "Use this commands: contact, services",
-  Contact: "alefernandezoficial@gmail.com",
-  Services: "/services",
+  ayuda: "Utiliza los siguientes comandos: help",
+  help: "Use the following commands: help",
 };
 
 const ChatBot = () => {
@@ -19,7 +17,7 @@ const ChatBot = () => {
 
   const handleSendMessage = (e) => {
     e.preventDefault();
-    const userInput = e.target.userInput.value.trim();
+    const userInput = e.target.userInput.value.trim().toLowerCase();
 
     if (userInput !== "") {
       const userMessage = {
@@ -40,18 +38,9 @@ const ChatBot = () => {
   };
 
   const generateBotResponse = (userInput) => {
-    const lowercaseInput = userInput.toLowerCase();
-
-    for (const question in responses) {
-      if (lowercaseInput === question.toLowerCase()) {
-        if (question === "Contact") {
-          return `<a href="mailto:${responses[question]}">Enviar Email</a>`;
-        } else if (question === "Services") {
-          return `<a href="${responses[question]}">Services / Precios</a>`;
-        } else {
-          return responses[question];
-        }
-      }
+    const response = responses[userInput];
+    if (response) {
+      return response;
     }
 
     return "Error! Utiliza los comandos help o ayuda para obtener más información.";
@@ -73,6 +62,7 @@ const ChatBot = () => {
         <div className="chat-content">
           <div className="chat-header">
             <h1 className="chat-title">ChatBot</h1>
+            <p>Ayuda / Help</p>
             <div className="chat-close" onClick={handleToggleChat}>
               <FaTimes size={26} />
             </div>
